@@ -15,10 +15,10 @@ namespace Cooperchip.IdeiasApp.Domain.Models
 
         // Todo: Implemetar UsuarioID, mas preciso mapear este atributo com o IdentityUser
 
-        public string Argumento { get; set; }
-        public DateTime DataSubAnalise { get; set; }
+        public string Argumento { get; private set; }
+        public DateTime DataSubAnalise { get; private set; }
 
-        public StatusAnalise StatusAnalise { get; set; }
+        public StatusAnalise StatusAnalise { get; private set; }
 
     }
 }
