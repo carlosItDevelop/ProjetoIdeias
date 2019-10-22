@@ -1,0 +1,78 @@
+﻿@using Cooperchip.IdeiasApp.DomainCore.Extentions
+@model IEnumerable<Cooperchip.IdeiasApp.Domain.Models.Ideia>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusIdeia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExisteConcorrente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DetalhesConcorrente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Argumento)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.DataSubAnalise)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.StatusAnalise)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>*@
+            @*<th>
+                @Html.DisplayNameFor(model => model.DataInclusao)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusIdeia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExisteConcorrente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DetalhesConcorrente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Argumento)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.DataSubAnalise)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusAnalise)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>*@
+            @*<td>
+                @Html.DisplayFor(modelItem => item.DataInclusao)
+            </td>*@
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -11,6 +11,7 @@
 
 > __Features__
 
+- [ ] Escrever um Extension Method para mostrar a descrição de um Enum !Important
 - [x] Criar interface genérica para todos os CRUDs
 - [x] Criar repositório genérico
 - [ ] Implementar metodos faltantes em Repository
