@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using IdeiasApp.Mvc.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using IdeiasApp.Mvc.Models;
+using System.Diagnostics;
 
 namespace IdeiasApp.Mvc.Controllers
 {
@@ -23,6 +20,7 @@ namespace IdeiasApp.Mvc.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
