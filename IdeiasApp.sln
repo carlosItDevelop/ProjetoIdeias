@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cooperchip.IdeiasApp.Data",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.IdeiasApp.Domain", "src\Cooperchip.IdeiasApp.Domain\Cooperchip.IdeiasApp.Domain.csproj", "{5A7BD71D-6C78-4FBB-961F-51E90CA55267}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooperchip.IdeiasApp.DomainCore", "src\Cooperchip.IdeiasApp.DomainCore\Cooperchip.IdeiasApp.DomainCore.csproj", "{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5A7BD71D-6C78-4FBB-961F-51E90CA55267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A7BD71D-6C78-4FBB-961F-51E90CA55267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A7BD71D-6C78-4FBB-961F-51E90CA55267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{97BF9D0D-AEC7-4ABC-A0D8-A4CB8506DF57} = {D7AD697F-5B3F-4571-BABA-B94222449A98}
 		{8108E321-8D4B-49C4-8E64-7C9775E9EBB0} = {0539B1C3-2F81-4D4B-ABC2-E6E6BC0F404B}
 		{5A7BD71D-6C78-4FBB-961F-51E90CA55267} = {51398789-7266-4D65-B4CE-D1A47766296F}
+		{8E2D9CB3-8D75-4B73-8530-414FBDBAB9D5} = {51398789-7266-4D65-B4CE-D1A47766296F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A878EE3E-E301-4B03-94FD-842313AD9853}

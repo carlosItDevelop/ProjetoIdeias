@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cooperchip.IdeiasApp.DomainCore\Cooperchip.IdeiasApp.DomainCore.csproj" />
+    <Folder Include="ValueObjects\" />
   </ItemGroup>
 
 </Project>
