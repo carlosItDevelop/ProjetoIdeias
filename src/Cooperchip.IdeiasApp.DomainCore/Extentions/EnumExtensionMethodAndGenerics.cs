@@ -6,7 +6,8 @@ namespace Cooperchip.IdeiasApp.DomainCore.Extentions
 {
     public static class EnumExtensionMethodAndGenerics
     {
-        public static string GetDescription(this Enum _enum) //Hint: Change the method signature and input paramter to use the type parameter T
+        // Todo: Altere a assinatura do método e o parâmetro de entrada para usar o parâmetro de tipo T
+        public static string GetDescription(this Enum _enum) 
         {
             Type genericEnumType = _enum.GetType();
             MemberInfo[] memberInfo = genericEnumType.GetMember(_enum.ToString());
