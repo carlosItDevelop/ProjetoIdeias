@@ -9,6 +9,24 @@
 ![Fluxo Inicial do Processo I do Ideias-Sys](http://apimltools.com.br/ideiasimg/fuxo-ideias.png "Fluxo Inicial do Processo I do Ideias-Sys")
 
 
+> __Features__
+
+- [x] Criar interface genérica para todos os CRUDs
+- [x] Criar repositório genérico
+- [ ] Implementar metodos faltantes em Repository
+- [ ] Criar os relacionamentos em EntityMap
+- [ ] Atualizar a documentação para Tag Helpers com Reflection
+- [x] Criar novo proejeto DomainCore, onde estará a EntityBase e a Interface IAggegateRoot
+- [ ] Criar Exception de Dominio
+- [x] Criar os primeiros ValueObjects
+- [ ] Configurar Setters privates
+- [ ] Criar métodos Ad-Hocs para os setters
+- [ ] Criar Exception de Dominio
+- [x] Criar VO RG
+- [x] Criar VO Dimensao
+- [x] Criar Interface IDomainGenericRepository in DomainCore
+
+
 > __Interface de Repositório Genérico__
 
 - Nossa Interface genérica, responsável pela assinatura do nosso __Repositório Genérico__;
@@ -218,24 +236,6 @@ namespace Cooperchip.ITDeveloper.Mvc.Extentions.TagHelpers
     }
 }
 ```
-
-> __Features__
-
-- [x] Criar interface genérica para todos os CRUDs
-- [x] Criar repositório genérico
-- [ ] Implementar metodos faltantes em Repository
-- [ ] Criar os relacionamentos em EntityMap
-- [ ] Atualizar a documentação para Tag Helpers com Reflection
-- [x] Criar novo proejeto DomainCore, onde estará a EntityBase e a Interface IAggegateRoot
-- [ ] Criar Exception de Dominio
-- [x] Criar os primeiros ValueObjects
-- [ ] Configurar Setters privates
-- [ ] Criar métodos Ad-Hocs para os setters
-- [ ] Criar Exception de Dominio
-- [x] Criar VO RG
-- [x] Criar VO Dimensao
-- [x] Criar Interface IDomainGenericRepository in DomainCore
-
 
 
 Consultar a documentação para TagHelpers e ViewComponents, **[Leia aqui](https://docs.microsoft.com/pt-br/)**.
