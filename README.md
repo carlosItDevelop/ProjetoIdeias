@@ -6,7 +6,7 @@
 > Tela ilustrativa inicial - Dashboard
 
 
-![Tela de Dashboard do MedicalManagenet-Sys](http://apimltools.com.br/itdeveloperimg/Dashboard-Evolumed-Sys.png "Dashboard - MedicalManagenet-Sys")
+![Fluxo Inicial do Processo I do Ideias-Sys](http://apimltools.com.br/ideiasimg/fuxo-ideias.png "Fluxo Inicial do Processo I do Ideias-Sys")
 
 
 > __Interface de Repositório Genérico__
@@ -172,14 +172,9 @@ namespace Cooperchip.ITDeveloper.Application.Services
 ```
 
 
-> Tela ilustrativa de Mural de Avisos e __Solicitações de Acesso__
+## DataInclusao:
 
-![Tela de Mural do MedicalManagenet-Sys](http://apimltools.com.br/itdeveloperimg/mural-evolumed-sys.png "Mural de Avisos - MedicalManagenet-Sys")
-
-
-## DataCadastro:
-
-> Todo: O campo DataCadastro deve ser incluído automaticamente, mas não deve ser alterado. Este processo será implementado no contexto da aplicação.
+> Todo: O campo DataInclusao deve ser incluído automaticamente, mas não deve ser alterado. Este processo será implementado no contexto da aplicação.
 
 ---
 
