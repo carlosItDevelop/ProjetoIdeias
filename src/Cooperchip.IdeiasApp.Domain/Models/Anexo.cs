@@ -6,7 +6,8 @@ namespace Cooperchip.IdeiasApp.Domain.Models
 {
     public class Anexo : EntityBase
     {
-        public string Nome { get; set; }
+        public string Descricao { get; set; }
+
         public Guid IdeiaId { get; set; }
         public Ideia Ideia { get; set; }
 
