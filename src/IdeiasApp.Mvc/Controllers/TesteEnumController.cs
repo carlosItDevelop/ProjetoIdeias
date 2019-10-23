@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using Cooperchip.IdeiasApp.Domain.Enums;
+using Cooperchip.IdeiasApp.Domain.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Cooperchip.IdeiasApp.Domain.Enums;
-using Cooperchip.IdeiasApp.Domain.Models;
-using Cooperchip.IdeiasApp.DomainCore.Extentions;
-using Microsoft.AspNetCore.Mvc;
 
 namespace IdeiasApp.Mvc.Controllers
 {
