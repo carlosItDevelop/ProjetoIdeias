@@ -18,41 +18,41 @@ namespace IdeiasApp.Mvc.Controllers
             {
                 new Ideia()
                 {
-                    Argumento = $"Argumento - Status Ideia: {StatusIdeia.Nova.GetDescription()}",
+                    Argumento = "Argumento: 001",
                     DataInclusao = DateTime.Now,
                     ExisteConcorrente = false,
                     DataSubAnalise = DateTime.Now,
-                    DetalhesConcorrente = $"Concorrência: {StatusAnalise.Aprovada.GetDescription()}",
+                    DetalhesConcorrente = "Concorrência: 001",
                     StatusAnalise = StatusAnalise.Aprovada,
                     StatusIdeia = StatusIdeia.Nova
                 },
                 new Ideia()
                 {
-                    Argumento = $"Argumento - Status Ideia: {StatusIdeia.Existente.GetDescription()}",
+                    Argumento = "Argumento: 002",
                     DataInclusao = DateTime.Now,
                     ExisteConcorrente = false,
                     DataSubAnalise = DateTime.Now,
-                    DetalhesConcorrente = $"Concorrência: {StatusAnalise.Criada.GetDescription()}",
+                    DetalhesConcorrente = "Concorrência: 002",
                     StatusAnalise = StatusAnalise.Criada,
                     StatusIdeia = StatusIdeia.Existente
                 },
                 new Ideia()
                 {
-                    Argumento = $"Argumento - Status Ideia: {StatusIdeia.Nova.GetDescription()}",
+                    Argumento = "Argumento: 003",
                     DataInclusao = DateTime.Now,
                     ExisteConcorrente = false,
                     DataSubAnalise = DateTime.Now,
-                    DetalhesConcorrente = $"Concorrência: {StatusAnalise.EmAnalise.GetDescription()}",
+                    DetalhesConcorrente = "Concorrência: 003",
                     StatusAnalise = StatusAnalise.EmAnalise,
                     StatusIdeia = StatusIdeia.Nova
                 },
                 new Ideia()
                 {
-                    Argumento = $"Argumento - Status Ideia: {StatusIdeia.Nova.GetDescription()}",
+                    Argumento = "Argumento: 004",
                     DataInclusao = DateTime.Now,
                     ExisteConcorrente = false,
                     DataSubAnalise = DateTime.Now,
-                    DetalhesConcorrente = $"Concorrência: {StatusAnalise.Reprovada.GetDescription()}",
+                    DetalhesConcorrente = "Concorrência: 004",
                     StatusAnalise = StatusAnalise.Reprovada,
                     StatusIdeia = StatusIdeia.Nova
                 }

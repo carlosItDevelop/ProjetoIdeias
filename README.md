@@ -27,7 +27,7 @@
 - [x] Criar VO Dimensao
 - [x] Criar Interface IDomainGenericRepository in DomainCore
 
-> __Extention Method__ para pegar a descrição de um Enum
+> __Extention Methods__ para pegar a descrição de um Enum
 
 ```CSharp
 
